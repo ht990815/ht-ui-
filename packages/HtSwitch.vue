@@ -85,12 +85,12 @@ export default {
     &::before {
       content: "";
       display: inline-block;
-      width: 21px;
-      height: 21px;
+      width: 24px;
+      height: 24px;
       position: absolute;
       left: 0;
       top: 0;
-      border: 2px solid rgb(211, 211, 211);
+      border: 1px solid rgb(211, 211, 211);
       background-color: white;
       border-radius: 50%;
       transition: 0.3s;

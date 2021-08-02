@@ -10,7 +10,7 @@
     :disabled="disabled"
     @click="handleClick"
   >
-    <i :class="icon"></i>
+    <i :class="'iconfont ' + icon"></i>
     <span v-if="$slots.default">
       <slot></slot>
     </span>
@@ -57,7 +57,7 @@ export default {
 // 默认样式
 .ht-button {
   user-select: none;
-  padding: 12px 25px;
+  padding: 8px 25px;
   cursor: pointer;
   margin: 10px;
   border-radius: 4px;
@@ -493,14 +493,7 @@ export default {
 // 原型图标
 .iscircle {
   padding: 12px;
-  border-radius: 50%;
-}
-// 根据具体传入的值进行判断
-.ht-button [class*="icon-"] + span {
-  margin-left: 10px;
-}
-
-// isdisabled，按钮禁用
-.isdisabled {
+  border-radius: 100%;
+  width: 50px;
 }
 </style>

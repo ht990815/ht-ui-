@@ -8,18 +8,26 @@ import HtInput from '../packages/HtInput.vue'
 import HtRadio from '../packages/HtRadio.vue'
 import HtRadioGroup from '../packages/HtRadioGroup.vue'
 import HtSwitch from '../packages/HtSwitch.vue'
+import HtMenu from '../packages/HtMenu.vue'
+import HtMenuGroup from '../packages/HtMenuGroup.vue'
+import HtMenuItem from '../packages/HtMenuItem.vue'
+import HtIcon from '../packages/HtIcon.vue'
 
 const comLists = [
-    HtButton,
-    HtCheckBox,
-    HtCheckBoxGroup,
-    HtDialog,
-    HtForm,
-    HtFormItem,
-    HtInput,
-    HtRadio,
-    HtRadioGroup,
-    HtSwitch
+  HtButton,
+  HtCheckBox,
+  HtCheckBoxGroup,
+  HtDialog,
+  HtForm,
+  HtFormItem,
+  HtInput,
+  HtRadio,
+  HtRadioGroup,
+  HtSwitch,
+  HtMenu,
+  HtMenuGroup,
+  HtMenuItem,
+  HtIcon
 ]
 
 // install当实例化时会被调用，统一导出组件
@@ -29,7 +37,7 @@ const install = function (Vue) {
   });
 }
 if (typeof window !== 'undefined' && window.Vue) {
-    install(window.Vue);
+  install(window.Vue);
 }
 export default {
   install
