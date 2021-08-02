@@ -12,6 +12,7 @@ import HtMenu from '../packages/HtMenu.vue'
 import HtMenuGroup from '../packages/HtMenuGroup.vue'
 import HtMenuItem from '../packages/HtMenuItem.vue'
 import HtIcon from '../packages/HtIcon.vue'
+import "./font_2696997_ymb0xfig3z/iconfont.scss"
 
 const comLists = [
   HtButton,

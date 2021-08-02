@@ -3,12 +3,22 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "app"
-}
-</script>
+
 
 <style>
-
+.iconfont {
+  width: 50px;
+  height: 50px;
+}
 </style>
+<script>
+export default {
+  data() {
+    return {
+      input: "",
+      input1: "",
+      pwd: ""
+    }
+  }
+}
+</script>
